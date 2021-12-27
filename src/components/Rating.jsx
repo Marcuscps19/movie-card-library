@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function Rating({ rating }) {
-  return <span className="rating">{rating}</span>;
+  return <span className="rating">{`IMDb: ${rating}`}</span>;
 }
 
 Rating.propTypes = {
