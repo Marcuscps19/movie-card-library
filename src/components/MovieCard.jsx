@@ -5,12 +5,16 @@ import Rating from './Rating';
 function MovieCard({ movie }) {
   const { title, subtitle, storyline, imagePath, rating } = movie;
   return (
-    <div>
-      <h4>{title}</h4>
-      <h5>{subtitle}</h5>
-      <p>{storyline}</p>
-      <Rating rating={ rating } />
-      <img src={ imagePath } alt="Imagem Do Filme" />
+    <div className="movie_card">
+      <div className="movie_card_info">
+        <div className="movie_card_title_rating">
+          <h4>{title}</h4>
+          <Rating rating={ rating } />
+        </div>
+        <h5>{subtitle}</h5>
+        <p>{storyline}</p>
+      </div>
+      <img src={ imagePath } alt={ `Imagem do filme ${title}` } />
     </div>
   );
 }
