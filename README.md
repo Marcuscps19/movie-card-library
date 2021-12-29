@@ -2,6 +2,9 @@
 
 Este projeto foi desenvolvido durante o curso de desenvolvimento web da [Trybe](https://www.betrybe.com/).
 
+Projeto finalizado em: 28/04/2021
+Atualizado em: 28/12/2021 
+
 ### Descrição:
 Biblioteca de cartões de filmes utilizando React composta por um conjunto de componentes.
 
